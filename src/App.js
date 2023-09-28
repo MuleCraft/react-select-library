@@ -149,7 +149,6 @@ function App() {
             options={iceCreamFlavors}
             value={selectedOptions}
             onChange={handleMultiSelectChange}
-            isLoading={isLoading}
             placeholder="Select your flavour"
             styles={customStyles}
             isMulti
